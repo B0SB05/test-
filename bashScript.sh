@@ -11,6 +11,6 @@ echo " ----------- Echo Request Ping ----------------"
 nmap -PE $hostIP  -oX $hostIP"EchoRequest"
 echo " ----------- UDP Ping ----------------"
 nmap -PU $hostIP  -oX $hostIP"UDP"
-
+#############################################################
 
 
